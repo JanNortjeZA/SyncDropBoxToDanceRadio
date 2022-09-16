@@ -1,0 +1,15 @@
+﻿{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "logLevel": {
+    "MyNamespace.HttpTrigger": "Information"
+  },
+  "functionTimeout": "00:09:00"
+}
